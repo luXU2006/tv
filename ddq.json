@@ -1,30 +1,29 @@
-
 {
-"uuid": "6ed73adf-8c3e-46dd-a8cd-64a7dfe491d2",
+"uuid": "c8e9f7a2-4d6b-4e1c-9a3d-2b5f8c1a6e7d",
 "title": "达达趣",
 "episode_flag": true,
 "landscape_flag": false,
-"referer": "",
+"referer": "https://www.dadaqu.cc/",
 "open_with_safari_flag": false,
 "category": [
 {
-"title": "剧集",
-"url0": "https://www.dadaqu.cc/vodshow/1--------{pg}---.html",
+"title": "电视剧",
+"url0": "https://www.dadaqu.cc/vodshow/1--------1---.html",
 "url1": "https://www.dadaqu.cc/vodshow/1--------{pg}---.html"
 },
 {
-"title": "电影", 
-"url0": "https://www.dadaqu.cc/vodshow/2--------{pg}---.html",
+"title": "电影",
+"url0": "https://www.dadaqu.cc/vodshow/2--------1---.html", 
 "url1": "https://www.dadaqu.cc/vodshow/2--------{pg}---.html"
 },
 {
 "title": "综艺",
-"url0": "https://www.dadaqu.cc/vodshow/3--------{pg}---.html",
+"url0": "https://www.dadaqu.cc/vodshow/3--------1---.html",
 "url1": "https://www.dadaqu.cc/vodshow/3--------{pg}---.html"
 },
 {
 "title": "动漫",
-"url0": "https://www.dadaqu.cc/vodshow/4--------{pg}---.html", 
+"url0": "https://www.dadaqu.cc/vodshow/4--------1---.html",
 "url1": "https://www.dadaqu.cc/vodshow/4--------{pg}---.html"
 }
 ],
@@ -42,13 +41,13 @@
 "playlist_flag": true,
 "playlist_group_node": "//div[@class='module-play-list-content']",
 "playlist_title": "//a",
-"playlist_link_id": "//a/@href", 
+"playlist_link_id": "//a/@href",
 "playlist_link_url": "https://www.dadaqu.cc{id}",
 "playlist_info": "//div[@class='module-info-introduction-content']",
 "search_flag": true,
 "search_url_first_page": "https://www.dadaqu.cc/vodsearch/-------------.html?wd={wd}",
 "search_url_other_page": "https://www.dadaqu.cc/vodsearch/{wd}----------{pg}---.html",
-"search_vod_node": "//div[@class='module-items']/a",
+"search_vod_node": "//div[@class='module-search-items']/a",
 "search_vod_title": "//div[@class='module-card-item-title']/a",
 "search_vod_image_id": "//img/@data-original",
 "search_vod_image_regex": "",
