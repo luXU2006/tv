@@ -9,28 +9,28 @@
 {
 "title": "电影",
 "url0": "https://www.dadaqu.cc/type/1.html",
-"url1": "https://www.dadaqu.cc/type/1-{pg}.html"
+"url1": "https://www.dadaqu.cc/type/1.html"
 },
 {
-"title": "剧集",
+"title": "剧集", 
 "url0": "https://www.dadaqu.cc/type/2.html",
-"url1": "https://www.dadaqu.cc/type/2-{pg}.html"
+"url1": "https://www.dadaqu.cc/type/2.html"
 },
 {
 "title": "综艺",
 "url0": "https://www.dadaqu.cc/type/3.html",
-"url1": "https://www.dadaqu.cc/type/3-{pg}.html"
+"url1": "https://www.dadaqu.cc/type/3.html"
 },
 {
 "title": "动漫",
 "url0": "https://www.dadaqu.cc/type/4.html",
-"url1": "https://www.dadaqu.cc/type/4-{pg}.html"
+"url1": "https://www.dadaqu.cc/type/4.html"
 }
 ],
 "vod_node": "//a[contains(@class,'module-poster-item')]",
-"vod_info": ".//div[contains(@class,'module-item-note')]/text()",
+"vod_info": ".//div[@class='module-item-note']/text()",
 "vod_score": "",
-"vod_title": ".//div[contains(@class,'module-poster-item-title')]/text()",
+"vod_title": ".//div[@class='module-poster-item-title']/text()",
 "vod_image_id": ".//img/@data-original",
 "vod_image_regex": "",
 "vod_image_url": "{id}",
@@ -43,12 +43,12 @@
 "playlist_title": ".//a/text()",
 "playlist_link_id": ".//a/@href",
 "playlist_link_url": "https://www.dadaqu.cc{id}",
-"playlist_info": "//div[contains(@class,'module-info-introduction')]",
+"playlist_info": "//div[contains(@class,'vod_content')]",
 "search_flag": true,
 "search_url_first_page": "https://www.dadaqu.cc/search/{wd}-------------.html",
-"search_url_other_page": "https://www.dadaqu.cc/search/{wd}----------{pg}---.html",
+"search_url_other_page": "https://www.dadaqu.cc/search/{wd}-------------.html",
 "search_vod_node": "//a[contains(@class,'module-poster-item')]",
-"search_vod_title": ".//div[contains(@class,'module-poster-item-title')]/text()",
+"search_vod_title": ".//div[@class='module-poster-item-title']/text()",
 "search_vod_image_id": ".//img/@data-original",
 "search_vod_image_regex": "",
 "search_vod_image_url": "{id}",
